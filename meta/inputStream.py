@@ -3,7 +3,7 @@ import time
 
 import pandas as ps
 
-KPI_FILE_NAME = '/home/wj/PycharmProjects/TopCellSearch/meta/20170101-0201KPI.csv'
+KPI_FILE_NAME = '/home/wj/PycharmProjects/ChinaUnicom/TopCellSearch/meta/20170101-0201KPI.csv'
 def getKPI(KPI_FILE_NAME=KPI_FILE_NAME):
     dataFrame = ps.read_csv(KPI_FILE_NAME, header=0, encoding='gbk')
     return dataFrame
